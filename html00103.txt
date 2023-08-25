@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Managing and monitoring groups
+
+
+08/19/2021
+Contributors
+
+
+
+You can create groups in Unified Manager to manage storage objects.

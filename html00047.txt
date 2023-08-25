@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Customizing NFS share reports
+
+
+08/10/2021
+Contributors
+
+
+
+You can customize NFS share reports to analyze information about NFS export policies and rules for volumes on your storage systems. For example, you can customize reports to display volumes with inaccessible mount paths and volumes with the default export policy.

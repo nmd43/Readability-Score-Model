@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Customizing volume relationship reports
+
+
+08/10/2021
+Contributors
+
+
+
+The Volume Relationships Inventory report enables you to analyze the storage inventory details in a cluster, understand the degree of protection that is required for volumes, and filter the volume details based on source of failure, pattern, and schedules.

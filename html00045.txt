@@ -1,0 +1,23 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Customizing aggregate capacity reports
+
+
+08/10/2021
+Contributors
+
+
+
+These sample custom reports are used to help you identify and respond to potential problems related to aggregate storage capacity.
+
+
+The reports in this section are just samples to help you understand how to create reports about aggregate capacity to help you monitor you storage system resources.

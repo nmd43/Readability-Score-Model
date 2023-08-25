@@ -1,0 +1,26 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+How the discovery process works
+
+
+08/11/2021
+Contributors
+
+
+
+After you have added the cluster to Unified Manager, the server discovers the cluster objects and adds them to its database. Understanding how the discovery process works helps you to manage your organization’s clusters and their objects.
+
+
+The default monitoring interval is 15 minutes: if you have added a cluster to Unified Manager server, it takes 15 minutes to display the cluster details in the Unified Manager UI.
+
+
+The following image illustrates the discovery process in Active IQ Unified Manager:

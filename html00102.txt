@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Managing and monitoring clusters and cluster object health
+
+
+08/12/2021
+Contributors
+
+
+
+Unified Manager uses periodic API queries and a data collection engine to collect data from the clusters. By adding clusters to the Unified Manager database, you can monitor and manage these clusters for any availability and capacity risks.

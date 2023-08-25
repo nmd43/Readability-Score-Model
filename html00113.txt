@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Managing health thresholds
+
+
+08/16/2021
+Contributors
+
+
+
+You can configure global health threshold values for all the aggregates, volumes, and qtrees to track any health threshold breaches.
