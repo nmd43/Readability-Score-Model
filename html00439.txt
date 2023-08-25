@@ -1,0 +1,302 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+What performance counters can be tracked using thresholds
+
+
+08/12/2021
+Contributors
+  
+
+
+
+
+
+
+
+Some common performance counters, such as IOPS and MB/s, can have thresholds set for all storage objects. There are other counters that can have thresholds set for only certain storage objects.
+
+
+
+
+Available performance counters
+
+
+
+
+
+
+
+
+
+Storage object
+Performance counter
+Description
+
+
+
+
+
+Cluster
+
+
+IOPS
+
+
+Average number of input/output operations the cluster processes per second.
+
+
+
+
+MB/s
+
+
+Average number of megabytes of data transferred to and from this cluster per second.
+
+
+
+
+Node
+
+
+IOPS
+
+
+Average number of input/output operations the node processes per second.
+
+
+
+
+MB/s
+
+
+Average number of megabytes of data transferred to and from this node per second.
+
+
+
+
+Latency
+
+
+Average number of milliseconds the node takes to respond to application requests.
+
+
+
+
+Utilization
+
+
+Average percentage of the node’s CPU and RAM that is being used.
+
+
+
+
+Performance Capacity Used
+
+
+Average percentage of performance capacity that is being consumed by the node.
+
+
+
+
+Performance Capacity Used - Takeover
+
+
+Average percentage of performance capacity that is being consumed by the node, plus the performance capacity of its partner node.
+
+
+
+
+Aggregate
+
+
+IOPS
+
+
+Average number of input/output operations the aggregate processes per second.
+
+
+
+
+MB/s
+
+
+Average number of megabytes of data transferred to and from this aggregate per second.
+
+
+
+
+Latency
+
+
+Average number of milliseconds the aggregate takes to respond to application requests.
+
+
+
+
+Utilization
+
+
+Average percentage of the aggregate’s disks that are being used.
+
+
+
+
+Performance Capacity Used
+
+
+Average percentage of performance capacity that is being consumed by the aggregate.
+
+
+
+
+Storage VM
+
+
+IOPS
+
+
+Average number of input/output operations the SVM processes per second.
+
+
+
+
+MB/s
+
+
+Average number of megabytes of data transferred to and from this SVM per second.
+
+
+
+
+Latency
+
+
+Average number of milliseconds the SVM takes to respond to application requests.
+
+
+
+
+Volume
+
+
+IOPS
+
+
+Average number of input/output operations the volume processes per second.
+
+
+
+
+MB/s
+
+
+Average number of megabytes of data transferred to and from this volume per second.
+
+
+
+
+Latency
+
+
+Average number of milliseconds the volume takes to respond to application requests.
+
+
+
+
+Cache miss ratio
+
+
+Average percentage of read requests from client applications that are returned from the volume instead of being returned from cache.
+
+
+
+
+LUN
+
+
+IOPS
+
+
+Average number of input/output operations the LUN processes per second.
+
+
+
+
+MB/s
+
+
+Average number of megabytes of data transferred to and from this LUN per second.
+
+
+
+
+Latency
+
+
+Average number of milliseconds the LUN takes to respond to application requests.
+
+
+
+
+Namespace
+
+
+IOPS
+
+
+Average number of input/output operations the namespace processes per second.
+
+
+
+
+MB/s
+
+
+Average number of megabytes of data transferred to and from this namespace per second.
+
+
+
+
+Latency
+
+
+Average number of milliseconds the namespace takes to respond to application requests.
+
+
+
+
+Port
+
+
+Bandwidth utilization
+
+
+Average percentage of the port’s available bandwidth that is being used.
+
+
+
+
+MB/s
+
+
+Average number of megabytes of data transferred to and from this port per second.
+
+
+
+
+Network Interface (LIF)
+
+
+MB/s
+
+
+Average number of megabytes of data transferred to and from this LIF per second.
