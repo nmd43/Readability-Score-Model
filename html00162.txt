@@ -1,0 +1,87 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Performance monitoring of MetroCluster configurations
+
+
+02/24/2022
+Contributors
+  
+
+
+
+
+
+
+
+
+Unified Manager enables you to monitor the write throughput between clusters in a MetroCluster configuration to identify workloads with a high amount of write throughput.
+
+
+If these high-performing workloads are causing other volumes on the local cluster to have high I/O response times, Unified Manager triggers performance events to notify you.
+
+
+
+
+
+
+
+
+Unified Manager treats the clusters in a MetroCluster configuration as individual clusters. It does not distinguish between clusters that are partners or correlate the write throughput from each cluster.
+
+
+
+
+
+When a local cluster in a MetroCluster configuration mirrors its data to its partner cluster, the data is written to NVRAM and then transferred over the interswitch links (ISLs) to the remote aggregates. Unified Manager analyzes the NVRAM to identify the workloads whose high write throughput is overutilizing the NVRAM, placing the NVRAM in contention.
+
+
+Workloads whose deviation in response time has exceeded the performance threshold are called victims and workloads whose deviation in write throughput to the NVRAM is higher than usual, causing the contention, are called bullies. Because only the write requests are mirrored to the partner cluster, Unified Manager does not analyze read throughput.
+
+
+You can view the throughput of any of the clusters in a MetroCluster configuration by analyzing the workloads of the corresponding LUNs and volumes from the following screens. You can filter the results by the cluster. From the left navigation pane:
+
+
+
+
+Storage > Clusters > Performance: All Clusters view. See
+
+
+Storage > Volumes > Performance: All Volumes view.
+
+
+Storage > LUNs > Performance: All LUNs view.
+
+
+Workload Analysis > All workloads
+
+
+
+
+Related information
+
+
+Performance event analysis and notification
+
+
+Performance event analysis for a MetroCluster configuration
+
+
+Roles of workloads involved in a performance event
+
+
+Identifying victim workloads involved in a performance event
+
+
+Identifying bully workloads involved in a performance event
+
+
+Identifying shark workloads involved in a performance event

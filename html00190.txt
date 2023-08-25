@@ -1,0 +1,26 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Setting up a connection between a Unified Manager server and an external data provider
+
+
+08/11/2021
+Contributors
+  
+
+
+
+
+
+A connection between a Unified Manager server and an external data provider enables you to send cluster performance data to an external server so that storage managers can chart the performance metrics using third-party software.
+
+
+A connection between a Unified Manager server and an external data provider is established through the menu option labeled “External Data Provider” in the maintenance console.

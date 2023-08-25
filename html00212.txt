@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Understanding more about quotas
+
+
+08/12/2021
+Contributors
+
+
+
+Understanding the concepts about quotas helps you to manage your user quotas and user group quotas efficiently.

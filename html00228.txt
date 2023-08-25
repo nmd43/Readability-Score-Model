@@ -1,0 +1,23 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Upgrading third-party products
+
+
+08/12/2021
+Contributors
+
+
+
+You can upgrade third-party products, such as JRE, on Unified Manager when installed on Windows systems.
+
+
+The companies that develop these third-party products report security vulnerabilities on a regular basis. You can upgrade to newer versions of this software at your own schedule.
