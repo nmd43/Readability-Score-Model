@@ -1,0 +1,70 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Inodes events
+
+
+08/23/2021
+Contributors
+
+
+
+
+
+Inode events provide information when the inode is full or nearly full so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+
+
+
+Impact area: capacity
+
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+Inodes Nearly Full(ocumEvtInodesAlmostFull)
+
+
+Risk
+
+
+Volume
+
+
+Warning
+
+
+
+
+Inodes Full(ocumEvtInodesFull)
+
+
+Risk
+
+
+Volume
+
+
+Error

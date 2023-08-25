@@ -1,0 +1,140 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Storage failover settings events
+
+
+08/23/2021
+Contributors
+
+
+
+
+
+Storage failover (SFO) settings events provide you with information about whether your storage failover is disabled or not configured so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+
+
+
+Impact area: availability
+
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+Storage Failover Interconnect One Or More Links Down(ocumEvtSfoInterconnectOneOrMoreLinksDown)
+
+
+Risk
+
+
+Node
+
+
+Warning
+
+
+
+
+Storage Failover Disabled(ocumEvtSfoSettingsDisabled)
+
+
+Risk
+
+
+Node
+
+
+Error
+
+
+
+
+Storage Failover Not Configured(ocumEvtSfoSettingsNotConfigured)
+
+
+Risk
+
+
+Node
+
+
+Error
+
+
+
+
+Storage Failover State - Takeover(ocumEvtSfoStateTakeover)
+
+
+Risk
+
+
+Node
+
+
+Warning
+
+
+
+
+Storage Failover State - Partial Giveback(ocumEvtSfoStatePartialGiveback)
+
+
+Risk
+
+
+Node
+
+
+Error
+
+
+
+
+Storage Failover Node Status Down(ocumEvtSfoNodeStatusDown)
+
+
+Risk
+
+
+Node
+
+
+Error
+
+
+
+
+Storage Failover Takeover Not Possible(ocumEvtSfoTakeoverNotPossible)
+
+
+Risk
+
+
+Node
+
+
+Error

@@ -1,0 +1,183 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Types of performance counter charts
+
+
+08/23/2021
+Contributors
+  
+
+
+
+
+
+There are standard performance charts that display the counter values for the selected storage object. Each of the Breakdown counter charts display the total values separated out into read, write, and other categories. Furthermore, some Breakdown counter charts display additional detail when the chart is displayed in Zoom view.
+
+
+The following table shows the available performance counter charts.
+
+
+
+
+
+
+
+
+Available charts
+Chart description
+
+
+
+
+
+Events
+
+
+Displays critical, error, warning, and information events in correlation with the statistical charts for the root object. Health events display in addition to performance events to provide a complete picture of the reasons performance may be affected.
+
+
+
+
+Latency - Total
+
+
+Number of milliseconds required to respond to application requests. Note that the average latency values are I/O weighted.
+
+
+
+
+Latency - Breakdown
+
+
+The same information shown in Latency Total, but with the performance data separated into read, write, and other latency. This chart option applies only when the selected object is an SVM, node, aggregate, volume, LUN, or namespace.
+
+
+
+
+Latency - Cluster Components
+
+
+The same information shown in Latency Total, but with the performance data separated into latency by cluster component. This chart option applies only when the selected object is a volume.
+
+
+
+
+IOPS - Total
+
+
+Number of input/output operations processed per second. When displayed for a node, selecting “Total” displays the IOPS for data moving through this node that may reside on the local or the remote node, and selecting “Total (Local)” displays the IOPS for data that resides only on the current node.
+
+
+
+
+IOPS - Breakdown
+
+
+The same information shown in IOPS Total, but with the performance data separated into read, write, and other IOPS. This chart option applies only when the selected object is an SVM, node, aggregate, volume, LUN, or namespace.
+
+
+When displayed in Zoom view, the volumes chart displays QoS minimum and maximum throughput values, if configured in ONTAP.
+
+
+When displayed for a node, selecting “Breakdown” displays the IOPS breakdown for data moving through this node that may reside on the local or the remote node, and selecting “Breakdown (Local)” displays the IOPS breakdown for data that resides only on the current node.
+
+
+
+
+IOPS - Protocols
+
+
+The same information shown in IOPS Total, but the performance data is separated into individual charts for CIFS, NFS, FCP, NVMe, and iSCSI protocol traffic. This chart option applies only when the selected object is an SVM.
+
+
+
+
+IOPS/TB - Total
+
+
+Number of input/output operations processed per second based on the total space that is being consumed by the workload, in terabytes. Also called I/O density, this counter measures how much performance can be delivered by a given amount of storage capacity. When displayed in Zoom view the volumes chart displays QoS expected and peak throughput values, if configured in ONTAP.
+
+
+This chart option applies only when the selected object is a volume.
+
+
+
+
+MB/s - Total
+
+
+Number of megabytes of data transferred to and from the object per second.
+
+
+
+
+MB/s - Breakdown
+
+
+The same information shown in the MB/s chart, but with the throughput data separated into disk reads, Flash Cache reads, writes, and other. When displayed in Zoom view, the volumes chart displays QoS maximum throughput values, if configured in ONTAP.
+
+
+This chart option applies only when the selected object is an SVM, node, aggregate, volume, LUN, or namespace.
+
+
+
+
+
+
+
+
+
+Flash Cache data is displayed only for nodes, and only when a Flash Cache module is installed in the node.
+
+
+
+
+
+
+
+
+Performance Capacity Used - Total
+
+
+Percentage of performance capacity that is being consumed by the node or aggregate.
+
+
+
+
+Performance Capacity Used - Breakdown
+
+
+Performance Capacity Used data separated into user protocols and system background processes. Additionally, the amount of free performance capacity is shown.
+
+
+
+
+Available IOPS - Total
+
+
+Number of input/output operations per second that are currently available (free) on this object. This number is the result of subtracting the currently used IOPS from the total IOPS that Unified Manager calculates that the object can perform. This chart option applies only when the selected object is a node or aggregate.
+
+
+
+
+Utilization - Total
+
+
+Available resource percentage of the object that is being used. Utilization indicates node utilization for nodes, disk utilization for aggregates, and bandwidth utilization for ports. This chart option applies only when the selected object is a node, aggregate, or port.
+
+
+
+
+Cache Miss Ratio - Total
+
+
+Percentage of read requests from client applications that are returned from the disk instead of being returned from the cache. This chart option applies only when the selected object is a volume.

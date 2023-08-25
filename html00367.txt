@@ -1,0 +1,360 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+MetroCluster Connectivity events
+
+
+10/31/2022
+Contributors
+  
+
+
+
+
+
+
+
+Connectivity events provide you with information about the connectivity between the components of a cluster and between clusters in MetroCluster over FC and MetroCluster over IP configurations, so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+
+
+
+Events common in both configurations
+
+
+These connectivity events are common for both MetroCluster over FC and MetroCluster over IP configurations.
+
+
+Impact area: availability
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+All Links Between MetroCluster Partners Down(ocumEvtMetroClusterAllLinksBetweenPartnersDown)
+
+
+Incident
+
+
+MetroCluster relationship
+
+
+Critical
+
+
+
+
+MetroCluster Partners Not Reachable Over Peering Network(ocumEvtMetroClusterPartnersNotReachableOverPeeringNetwork)
+
+
+Incident
+
+
+MetroCluster relationship
+
+
+Critical
+
+
+
+
+MetroCluster Disaster Recovery Capability Impacted(ocumEvtMetroClusterDRStatusImpacted)
+
+
+Risk
+
+
+MetroCluster relationship
+
+
+Critical
+
+
+
+
+MetroCluster Configuration Switched Over(ocumEvtMetroClusterDRStatusImpacted)
+
+
+Risk
+
+
+MetroCluster relationship
+
+
+Warning
+
+
+
+
+
+
+
+
+MetroCluster over FC configuration
+
+
+These events pertain to MetroCluster over FC configurations.
+
+
+Impact area: availability
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+All Inter-Switch Links Down(ocumEvtMetroClusterAllISLBetweenSwitchesDown)
+
+
+Incident
+
+
+MetroCluster inter-switch connection
+
+
+Critical
+
+
+
+
+FC-SAS Bridge To Storage Stack Link Down(ocumEvtBridgeSasPortDown)
+
+
+Incident
+
+
+MetroCluster bridge stack connection
+
+
+Critical
+
+
+
+
+MetroCluster Configuration Partially Switched Over(ocumEvtMetroClusterDRStatusPartiallyImpacted)
+
+
+Risk
+
+
+MetroCluster relationship
+
+
+Error
+
+
+
+
+Node To FC Switch All FC-VI Interconnect Links Down(ocumEvtMccNodeSwitchFcviLinksDown)
+
+
+Incident
+
+
+MetroCluster node switch connection
+
+
+Critical
+
+
+
+
+Node To FC Switch One Or More FC-Initiator Links Down(ocumEvtMccNodeSwitchFcLinksOneOrMoreDown)
+
+
+Risk
+
+
+MetroCluster node switch connection
+
+
+Warning
+
+
+
+
+Node To FC Switch All FC-Initiator Links Down(ocumEvtMccNodeSwitchFcLinksDown)
+
+
+Incident
+
+
+MetroCluster node switch connection
+
+
+Critical
+
+
+
+
+Switch To FC-SAS Bridge FC Link Down (ocumEvtMccSwitchBridgeFcLinksDown)
+
+
+Incident
+
+
+MetroCluster switch bridge connection
+
+
+Critical
+
+
+
+
+Inter Node All FC VI InterConnect Links Down (ocumEvtMccInterNodeLinksDown)
+
+
+Incident
+
+
+Inter-node connection
+
+
+Critical
+
+
+
+
+Inter Node One Or More FC VI InterConnect Links Down (ocumEvtMccInterNodeLinksOneOrMoreDown)
+
+
+Risk
+
+
+Inter-node connection
+
+
+Warning
+
+
+
+
+Node To Bridge Link Down (ocumEvtMccNodeBridgeLinksDown)
+
+
+Incident
+
+
+Node bridge connection
+
+
+Critical
+
+
+
+
+Node to Storage Stack All SAS Links Down ( ocumEvtMccNodeStackLinksDown)
+
+
+Incident
+
+
+Node stack connection
+
+
+Critical
+
+
+
+
+Node to Storage Stack One Or More SAS Links Down ( ocumEvtMccNodeStackLinksOneOrMoreDown)
+
+
+Risk
+
+
+Node stack connection
+
+
+Warning
+
+
+
+
+
+
+
+
+MetroCluster over IP configuration
+
+
+These events pertain to MetroCluster over IP configurations.
+
+
+Impact area: availability
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+MetroCluster IP intersite connectivity status is down (mccIntersiteconnectivityStatusDown)
+
+
+Risk
+
+
+MetroCluster Relationship
+
+
+Critical
+
+
+
+
+MetroCluster-IP Node to Switch Connection Offline (mccIpPortStatusOffline)
+
+
+Risk
+
+
+Node
+
+
+Error

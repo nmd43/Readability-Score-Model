@@ -1,0 +1,191 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Port events
+
+
+08/23/2021
+Contributors
+
+
+
+
+
+Port events provide you with status about cluster ports so that you can monitor changes or problems on the port, like whether the port is down.
+
+
+
+
+Impact area: availability
+
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+Port Status Down(ocumEvtPortStatusDown)
+
+
+Incident
+
+
+Node
+
+
+Critical
+
+
+
+
+
+
+
+Impact area: performance
+
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+Network Port MB/s Critical Threshold Breached(ocumNetworkPortMbpsIncident)
+
+
+Incident
+
+
+Port
+
+
+Critical
+
+
+
+
+Network Port MB/s Warning Threshold Breached(ocumNetworkPortMbpsWarning)
+
+
+Risk
+
+
+Port
+
+
+Warning
+
+
+
+
+FCP Port MB/s Critical Threshold Breached(ocumFcpPortMbpsIncident)
+
+
+Incident
+
+
+Port
+
+
+Critical
+
+
+
+
+FCP Port MB/s Warning Threshold Breached(ocumFcpPortMbpsWarning)
+
+
+Risk
+
+
+Port
+
+
+Warning
+
+
+
+
+Network Port Utilization Critical Threshold Breached(ocumNetworkPortUtilizationIncident)
+
+
+Incident
+
+
+Port
+
+
+Critical
+
+
+
+
+Network Port Utilization Warning Threshold Breached(ocumNetworkPortUtilizationWarning)
+
+
+Risk
+
+
+Port
+
+
+Warning
+
+
+
+
+FCP Port Utilization Critical Threshold Breached(ocumFcpPortUtilizationIncident)
+
+
+Incident
+
+
+Port
+
+
+Critical
+
+
+
+
+FCP Port Utilization Warning Threshold Breached(ocumFcpPortUtilizationWarning)
+
+
+Risk
+
+
+Port
+
+
+Warning

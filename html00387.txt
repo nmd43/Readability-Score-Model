@@ -1,0 +1,140 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Qtree events
+
+
+08/23/2021
+Contributors
+
+
+
+
+
+Qtree events provide you with information about the qtree capacity and the file and disk limits so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+
+
+
+Impact area: capacity
+
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+Qtree Space Nearly Full(ocumEvtQtreeSpaceNearlyFull)
+
+
+Risk
+
+
+Qtree
+
+
+Warning
+
+
+
+
+Qtree Space Full(ocumEvtQtreeSpaceFull)
+
+
+Risk
+
+
+Qtree
+
+
+Error
+
+
+
+
+Qtree Space Normal(ocumEvtQtreeSpaceThresholdOk)
+
+
+Event
+
+
+Qtree
+
+
+Information
+
+
+
+
+Qtree Files Hard Limit Reached(ocumEvtQtreeFilesHardLimitReached)
+
+
+Incident
+
+
+Qtree
+
+
+Critical
+
+
+
+
+Qtree Files Soft Limit Breached(ocumEvtQtreeFilesSoftLimitBreached)
+
+
+Risk
+
+
+Qtree
+
+
+Warning
+
+
+
+
+Qtree Space Hard Limit Reached(ocumEvtQtreeSpaceHardLimitReached)
+
+
+Incident
+
+
+Qtree
+
+
+Critical
+
+
+
+
+Qtree Space Soft Limit Breached(ocumEvtQtreeSpaceSoftLimitBreached)
+
+
+Risk
+
+
+Qtree
+
+
+Warning

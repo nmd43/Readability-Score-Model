@@ -1,0 +1,23 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Security events
+
+
+08/16/2021
+Contributors
+
+
+
+Security events provide you with information about the security status of ONTAP clusters, storage virtual machines (SVMs), and volumes based on parameters defined in the NetApp Security Hardening Guide for ONTAP 9. These events notify you of potential issues so that you can evaluate their severity and fix the issue if necessary.
+
+
+Security events are grouped by source type and include the event and trap name, impact level, and severity. These events appear in the cluster and storage VM event categories.

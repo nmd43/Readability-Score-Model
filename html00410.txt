@@ -1,0 +1,84 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Snapshot events
+
+
+08/23/2021
+Contributors
+
+
+
+
+
+Snapshot events provide information about the status of snapshots which enables you to monitor the snapshots for potential problems. The events are grouped by impact area, and include the event name, trap name, impact level, source type, and severity.
+
+
+
+
+Impact area: availability
+
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+Snapshot Auto-delete Disabled(Not applicable)
+
+
+Event
+
+
+Volume
+
+
+Information
+
+
+
+
+Snapshot Auto-delete Enabled(Not applicable)
+
+
+Event
+
+
+Volume
+
+
+Information
+
+
+
+
+Snapshot Auto-delete Configuration Modified(Not applicable)
+
+
+Event
+
+
+Volume
+
+
+Information

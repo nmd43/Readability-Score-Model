@@ -1,0 +1,70 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Service processor events
+
+
+08/23/2021
+Contributors
+
+
+
+
+
+Service processor events provide you with information about the status of your processor so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+
+
+
+Impact area: availability
+
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+Service Processor Not Configured(ocumEvtServiceProcessorNotConfigured)
+
+
+Risk
+
+
+Node
+
+
+Warning
+
+
+
+
+Service Processor Offline(ocumEvtServiceProcessorOffline)
+
+
+Risk
+
+
+Node
+
+
+Error
