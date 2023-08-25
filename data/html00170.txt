@@ -1,0 +1,26 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Refining Performance inventory page contents
+
+
+08/11/2021
+Contributors
+  
+
+
+
+
+
+The inventory pages for performance objects contain tools to help you refine object inventory data content, enabling you to locate specific data quickly and easily.
+
+
+Information contained within the Performance object inventory pages can be extensive, often spanning multiple pages. This kind of comprehensive data is excellent for monitoring, tracking, and improving performance; however, locating specific data requires tools to enable you to quickly locate the data for which you are looking. Therefore, the Performance object inventory pages contain functionality for searching, sorting, and filtering. Additionally, searching and filtering can work together to further narrow your results.

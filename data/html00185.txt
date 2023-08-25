@@ -1,0 +1,33 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Sample Microsoft Excel reports
+
+
+08/10/2021
+Contributors
+
+
+
+These sample Microsoft Excel reports are intended to introduce reporting options available using Excel advanced features.
+
+
+The advanced functionality of Excel can create a wide array of reports specific to your needs. For full information on how to use Excel, see the product documentation.
+
+
+
+
+
+
+
+
+
+You must have the Application Administrator or Storage Administrator role to manage reports.

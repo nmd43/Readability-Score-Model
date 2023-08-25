@@ -1,0 +1,318 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Protocol and port requirements
+
+
+11/10/2022
+Contributors
+  
+
+
+
+
+
+
+
+The required ports and protocols enable communication between the Unified Manager server and the managed storage systems, servers, and other components.
+
+
+
+
+Connections to the Unified Manager server
+
+
+In typical installations you do not have to specify port numbers when connecting to the Unified Manager web UI, because default ports are always used. For example, because Unified Manager always attempts to run on its default port, you can enter https://<host> instead of https://<host>:443.
+
+
+The Unified Manager server uses specific protocols to access the following interfaces:
+
+
+
+
+
+
+
+
+
+
+Interface
+Protocol
+Port
+Description
+
+
+
+
+
+Unified Manager web UI
+
+
+HTTP
+
+
+80
+
+
+Used to access the Unified Manager web UI; automatically redirects to the secure port 443.
+
+
+
+
+Unified Manager web UI and programs using APIs
+
+
+HTTPS
+
+
+443
+
+
+Used to securely access the Unified Manager web UI or to make API calls; API calls can only be made using HTTPS.
+
+
+
+
+Maintenance console
+
+
+SSH/SFTP
+
+
+22
+
+
+Used to access the maintenance console and retrieve support bundles.
+
+
+
+
+Linux command line
+
+
+SSH/SFTP
+
+
+22
+
+
+Used to access the Red Hat Enterprise Linux or CentOS command line and retrieve support bundles.
+
+
+
+
+MySQL database
+
+
+MySQL
+
+
+3306
+
+
+Used to enable OnCommand Workflow Automation and OnCommand API Services access to Unified Manager.
+
+
+
+
+Syslog
+
+
+UDP
+
+
+514
+
+
+Used to access subscription-based EMS messages from ONTAP systems and to create events based on the messages.
+
+
+
+
+REST
+
+
+HTTPS
+
+
+9443
+
+
+Used to access realtime REST API-based EMS events from authenticated ONTAP systems.
+
+
+
+
+
+
+
+
+
+
+
+
+The default port for MySQL, 3306, is restricted only to localhost while installing Unified Manager on Linux systems. This does not impact any upgrade scenario, where the previous configuration is maintained. This configuration can be modified, and the connection can be made available to other hosts by using the Control access to MySQL port 3306 option on the maintenance console. For information, see Additional menu options. The ports used for HTTP and HTTPS communication (ports 80 and 443) can be changed using the Unified Manager maintenance console. For more information, see Maintenance console menus.
+
+
+
+
+
+
+
+
+Connections from the Unified Manager server
+
+
+You should configure your firewall to open ports that enable communication between the Unified Manager server and managed storage systems, servers, and other components. If a port is not open, communication fails.
+
+
+Depending on your environment, you can choose to modify the ports and protocols used by the Unified Manager server to connect to specific destinations.
+
+
+The Unified Manager server connects using the following protocols and ports to the managed storage systems, servers, and other components:
+
+
+
+
+
+
+
+
+
+
+Destination
+Protocol
+Port
+Description
+
+
+
+
+
+Storage system
+
+
+HTTPS
+
+
+443/TCP
+
+
+Used to monitor and manage storage systems.
+
+
+
+
+Storage system
+
+
+NDMP
+
+
+10000/TCP
+
+
+Used for certain Snapshot restore operations.
+
+
+
+
+AutoSupport server
+
+
+HTTPS
+
+
+443
+
+
+Used to send AutoSupport information. Requires the internet access to perform this function.
+
+
+
+
+Authentication server
+
+
+LDAP
+
+
+389
+
+
+Used to make authentication requests, and user and group lookup requests.
+
+
+
+
+LDAPS
+
+
+636
+
+
+Used for secure LDAP communication.
+
+
+
+
+Mail server
+
+
+SMTP
+
+
+25
+
+
+Used to send alert notification emails.
+
+
+
+
+SNMP trap sender
+
+
+SNMPv1 or SNMPv3
+
+
+162/UDP
+
+
+Used to send alert notification SNMP traps.
+
+
+
+
+External data provider server
+
+
+TCP
+
+
+2003
+
+
+Used to send performance data to an external data provider, such as Graphite.
+
+
+
+
+NTP server
+
+
+NTP
+
+
+123/UDP
+
+
+Used to synchronize the time on the Unified Manager server with an external NTP time server. (VMware systems only)

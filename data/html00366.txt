@@ -1,0 +1,73 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+MetroCluster Bridge events
+
+
+09/19/2022
+Contributors
+  
+
+
+
+
+
+
+
+MetroCluster Bridge events provide you with information about the status of the bridges so that you can monitor for potential problems in a MetroCluster over FC configuration. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+
+
+
+Impact area: availability
+
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+Bridge Unreachable(ocumEvtBridgeUnreachable)
+
+
+Incident
+
+
+MetroCluster Bridge
+
+
+Critical
+
+
+
+
+Bridge Temperature Abnormal(ocumEvtBridgeTemperatureAbnormal)
+
+
+Incident
+
+
+MetroCluster Bridge
+
+
+Critical

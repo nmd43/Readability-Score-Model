@@ -1,0 +1,90 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Managing backup and restore operations
+
+
+09/20/2022
+Contributors
+  
+
+
+
+
+
+You can create backups of Active IQ Unified Manager and use the restore feature to restore the backup to the same (local) system or a new (remote) system in case of a system failure or data loss.
+
+
+There are three backup and restore methods depending on the operating system on which you have installed Unified Manager, and based on the number of clusters and nodes being managed:
+
+
+
+
+
+
+
+
+
+Operating System
+Size of Deployment
+Recommended Backup Method
+
+
+
+
+
+VMware vSphere
+
+
+Any
+
+
+VMware snapshot of the Unified Manager virtual appliance
+
+
+
+Red Hat Enterprise Linux or CentOS Linux
+
+Small
+
+
+Unified Manager MySQL database dump
+
+
+
+
+Large
+
+
+NetApp Snapshot of Unified Manager database
+
+
+
+Microsoft Windows
+
+Small
+
+
+Unified Manager MySQL database dump
+
+
+
+
+Large
+
+
+NetApp Snapshot of Unified Manager database with iSCSI protocol
+
+
+
+
+
+These different methods are described in the sections that follow.

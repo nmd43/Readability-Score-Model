@@ -1,0 +1,36 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Analyzing events from system-defined performance thresholds
+
+
+08/10/2021
+Contributors
+  
+
+
+
+
+
+Events generated from system-defined performance thresholds indicate that a performance counter, or set of performance counters, for a certain storage object has crossed the threshold from a system-defined policy. This indicates that the storage object, for example, an aggregate or node, is experiencing a performance issue.
+
+
+You use the Event details page to analyze the performance event and take corrective action, if necessary, to return performance back to normal.
+
+
+
+
+
+
+
+
+
+System-defined threshold policies are not enabled on Cloud Volumes ONTAP, ONTAP Edge, or ONTAP Select systems.

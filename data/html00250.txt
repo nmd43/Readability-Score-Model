@@ -1,0 +1,23 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Diagnostic user capabilities
+
+
+08/16/2021
+Contributors
+
+
+
+The purpose of diagnostic access is to enable technical support to assist you in troubleshooting, and you should only use it when directed by technical support.
+
+
+The diagnostic user can execute OS-level commands when directed by technical support, for troubleshooting purposes.

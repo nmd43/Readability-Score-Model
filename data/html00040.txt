@@ -1,0 +1,26 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Configuring Unified Manager backup
+
+
+11/25/2021
+Contributors
+  
+
+
+
+
+
+You can configure the backup capability on Unified Manager through a set of configuration steps to be performed on the host systems and the through maintenance console.
+
+
+For information about the configuration steps, see Managing backup and restore operations.

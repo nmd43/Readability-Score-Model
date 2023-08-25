@@ -1,0 +1,77 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Cluster connectivity status definitions for MetroCluster over FC configuration
+
+
+07/18/2023
+Contributors
+  
+
+
+
+
+
+Connectivity between the clusters in a MetroCluster over FC configuration can be one of the following statuses: Optimal, Impacted, or Down. Understanding the connectivity statuses enables you to manage your MetroCluster configurations effectively.
+
+
+
+
+
+
+
+
+
+Connectivity status
+Description
+Icon displayed
+
+
+
+
+
+Optimal
+
+
+Connectivity between the clusters in the MetroCluster configuration is normal.
+
+
+
+
+
+
+
+Impacted
+
+
+One or more errors compromise the status of failover availability; however, both of the clusters in the MetroCluster configuration are still up. For example, when the ISL link is down, when the intercluster IP link is down, or when the partner cluster is not reachable.
+
+
+
+
+
+
+
+Down
+
+
+Connectivity between the clusters in the MetroCluster configuration is down because one or both of the clusters are down or the clusters are in failover mode. For example, when the partner cluster is down because of a disaster or when there is a planned switchover for testing purposes.
+
+
+Switchover with errors:
+
+
+
+
+
+
+
+Switchover successful:

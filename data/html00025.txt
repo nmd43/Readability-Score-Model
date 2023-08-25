@@ -1,0 +1,35 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Supported browsers
+
+
+01/31/2023
+Contributors
+  
+
+
+
+
+
+To access the Unified Manager web UI, use a supported browser.
+
+
+The Interoperability Matrix has the list of supported browser versions.
+
+
+mysupport.netapp.com/matrix
+
+
+For all browsers, disabling pop-up blockers ensures that software features are displayed properly.
+
+
+If you plan to configure Unified Manager for SAML authentication, so that an identity provider (IdP) can authenticate users, you should check the list of browsers supported by the IdP as well.

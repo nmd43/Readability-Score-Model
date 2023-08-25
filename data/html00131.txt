@@ -1,0 +1,32 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+MetroCluster configuration health check
+
+
+09/22/2022
+Contributors
+  
+
+
+
+
+
+
+
+
+You can use Unified Manager to review the health of the clusters in a MetroCluster configuration over IP or FC. The health status and events help you determine whether there are hardware or software issues that might be impacting the performance of your workloads.
+
+
+If you configure Unified Manager to send email alerts, you can check your email for any health issues on the local or remote cluster that might have contributed to a performance event. In the Unified Manager GUI, you can select Event Management to see a list current events and then use the filters to display MetroCluster configuration events only.
+
+
+For more information, see Checking the health of clusters in a MetroCluster configuration

@@ -1,0 +1,98 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Disks events
+
+
+08/20/2021
+Contributors
+
+
+
+
+
+Disks events provide you with information about the status of disks so that you can monitor for potential problems. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+
+
+
+Impact area: availability
+
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+Flash Disks - Spare Blocks Almost Consumed(ocumEvtClusterFlashDiskFewerSpareBlockError)
+
+
+Risk
+
+
+Cluster
+
+
+Error
+
+
+
+
+Flash Disks - No Spare Blocks(ocumEvtClusterFlashDiskNoSpareBlockCritical)
+
+
+Incident
+
+
+Cluster
+
+
+Critical
+
+
+
+
+Some Unassigned Disks(ocumEvtClusterUnassignedDisksSome)
+
+
+Risk
+
+
+Cluster
+
+
+Warning
+
+
+
+
+Some Failed Disks(ocumEvtDisksSomeFailed)
+
+
+Incident
+
+
+Cluster
+
+
+Critical

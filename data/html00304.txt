@@ -1,0 +1,293 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Cluster compliance categories
+
+
+10/21/2021
+Contributors
+
+
+
+This table describes the cluster security compliance parameters that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the cluster being complaint or not complaint.
+
+
+Having non-compliant SVMs on a cluster will affect the compliance value for the cluster. So in some cases you may need to fix a security issues with an SVM before your cluster security is seen as compliant.
+
+
+Note that not every parameter listed below appears for all installations. For example, if you have no peered clusters, or if you have disabled AutoSupport on a cluster, then you will not see the Cluster Peering or AutoSupport HTTPS Transport items in the UI page.
+
+
+
+
+
+
+
+
+
+
+Parameter
+Description
+Recommendation
+Affects Cluster Compliance
+
+
+
+
+
+Global FIPS
+
+
+Indicates if Global FIPS (Federal Information Processing Standard) 140-2 compliance mode is enabled or disabled. When FIPS is enabled, TLSv1 and SSLv3 are disabled, and only TLSv1.1 and TLSv1.2 are allowed.
+
+
+Enabled
+
+
+Yes
+
+
+
+
+Telnet
+
+
+Indicates if Telnet access to the system is enabled or disabled. NetApp recommends Secure Shell (SSH) for secure remote access.
+
+
+Disabled
+
+
+Yes
+
+
+
+
+Insecure SSH Settings
+
+
+Indicates if SSH uses insecure ciphers, for example ciphers beginning with *cbc.
+
+
+No
+
+
+Yes
+
+
+
+
+Login Banner
+
+
+Indicates if the Login banner is enabled or disabled for users accessing the system.
+
+
+Enabled
+
+
+Yes
+
+
+
+
+Cluster Peering
+
+
+Indicates if communication between peered clusters is encrypted or unencrypted. Encryption must be configured on both the source and destination clusters for this parameter to be considered compliant.
+
+
+Encrypted
+
+
+Yes
+
+
+
+
+Network Time Protocol
+
+
+Indicates if the cluster has one or more configured NTP servers. For redundancy and best service NetApp recommends that you associate at least three NTP servers with the cluster.
+
+
+Configured
+
+
+Yes
+
+
+
+
+OCSP
+
+
+Indicates if there are applications in ONTAP that are not configured with OCSP (Online Certificate Status Protocol) and therefore communications are not encrypted. The non-compliant applications are listed.
+
+
+Enabled
+
+
+No
+
+
+
+
+Remote Audit Logging
+
+
+Indicates if log forwarding (Syslog) is encrypted or not encrypted.
+
+
+Encrypted
+
+
+Yes
+
+
+
+
+AutoSupport HTTPS Transport
+
+
+Indicates if HTTPS is used as the default transport protocol for sending AutoSupport messages to NetApp support.
+
+
+Enabled
+
+
+Yes
+
+
+
+
+Default Admin User
+
+
+Indicates if the Default Admin User (built-in) is enabled or disabled. NetApp recommends locking (disabling) any unneeded built-in accounts.
+
+
+Disabled
+
+
+Yes
+
+
+
+
+SAML Users
+
+
+Indicates if SAML is configured. SAML enables you to configure multi-factor authentication (MFA) as a login method for single sign-on.
+
+
+No
+
+
+No
+
+
+
+
+Active Directory Users
+
+
+Indicates if Active Directory is configured. Active Directory and LDAP are the preferred authentication mechanisms for users accessing clusters.
+
+
+No
+
+
+No
+
+
+
+
+LDAP Users
+
+
+Indicates if LDAP is configured. Active Directory and LDAP are the preferred authentication mechanisms for users managing clusters over local users.
+
+
+No
+
+
+No
+
+
+
+
+Certificate Users
+
+
+Indicates if a certificate user is configured to log into the cluster.
+
+
+No
+
+
+No
+
+
+
+
+Local Users
+
+
+Indicates if local users are configured to log into the cluster.
+
+
+No
+
+
+No
+
+
+
+
+Remote Shell
+
+
+Indicates if RSH is enabled. For security reasons, RSH should be disabled. The Secure Shell (SSH) for secure remote access is preferred.
+
+
+Disabled
+
+
+Yes
+
+
+
+
+MD5 in Use
+
+
+Indicates if ONTAP user accounts use less-secure MD5 Hash function. The MD5 Hashed user accounts migration to the more secure cryptographic hash function like SHA-512 is preferred.
+
+
+No
+
+
+Yes
+
+
+
+
+Certificate Issuer Type
+
+
+Indicates the type of digital certificate used.
+
+
+CA-Signed
+
+
+No

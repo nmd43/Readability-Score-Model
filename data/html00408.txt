@@ -1,0 +1,167 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Asynchronous Mirror and Vault relationship events
+
+
+08/31/2021
+Contributors
+
+
+
+
+
+Asynchronous Mirror and Vault relationship events provide you with information about the status of your Asynchronous SnapMirror and Vault relationships so that you can monitor for potential problems. Asynchronous Mirror and Vault relationship events are supported for both volume and Storage VM protection relationships. But only Vault relationships are not supported for Storage VM disaster recovery. Events are grouped by impact area and include the event and trap name, impact level, source type, and severity.
+
+
+
+
+Impact area: protection
+
+
+
+
+
+
+
+
+
+The SnapMirror and Vault relationships events are also generated for Storage VMs that are protected by Storage VM disaster recovery but not for any constituent object relationships.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Event name (Trap name)
+Impact level
+Source type
+Severity
+
+
+
+
+
+Asynchronous Mirror and Vault Unhealthy(ocumEvtMirrorVaultRelationshipUnhealthy)
+
+
+Risk
+
+
+SnapMirror relationship
+
+
+Warning
+
+
+
+
+Asynchronous Mirror and Vault Broken-off(ocumEvtMirrorVaultRelationshipStateBrokenoff)
+
+
+Risk
+
+
+SnapMirror relationship
+
+
+Error
+
+
+
+
+Asynchronous Mirror and Vault Initialize Failed(ocumEvtMirrorVaultRelationshipInitializeFailed)
+
+
+Risk
+
+
+SnapMirror relationship
+
+
+Error
+
+
+
+
+Asynchronous Mirror and Vault Update Failed(ocumEvtMirrorVaultRelationshipUpdateFailed)
+
+
+Risk
+
+
+SnapMirror relationship
+
+
+Error
+
+
+
+
+Asynchronous Mirror and Vault Lag Error(ocumEvtMirrorVaultRelationshipLagError)
+
+
+Risk
+
+
+SnapMirror relationship
+
+
+Error
+
+
+
+
+Asynchronous Mirror and Vault Lag Warning(ocumEvtMirrorVaultRelationshipLagWarning)
+
+
+Risk
+
+
+SnapMirror relationship
+
+
+Warning
+
+
+
+
+Asynchronous Mirror and Vault Resync Failed(ocumEvtMirrorVaultRelationshipResyncFailed)
+
+
+Risk
+
+
+SnapMirror relationship
+
+
+Error
+
+
+
+
+
+
+
+
+
+
+
+
+"SnapMirror update failure" event is raised by Active IQ portal (Config Advisor).

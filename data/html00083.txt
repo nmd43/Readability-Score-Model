@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Installing Unified Manager on Linux systems
+
+
+08/13/2021
+Contributors
+
+
+
+It is important that you understand that the sequence of steps to download and install Unified Manager varies according to your installation scenario.

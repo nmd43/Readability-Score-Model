@@ -1,0 +1,33 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Sample custom reports
+
+
+08/10/2021
+Contributors
+
+
+
+These sample custom reports are commonly used to help you identify potential problems and respond to potential issues before problems occur.
+
+
+The list of reports in this section is not exhaustive and will grow over time. You can suggest custom reports to add to this section by providing documentation feedback.
+
+
+
+
+
+
+
+
+
+You must have the Application Administrator or Storage Administrator role to manage reports.

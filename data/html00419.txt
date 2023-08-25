@@ -1,0 +1,206 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Storage VM compliance categories
+
+
+10/21/2021
+Contributors
+  
+
+
+
+
+
+This table describes the storage virtual machine (SVM) security compliance criteria that Unified Manager evaluates, the NetApp recommendation, and whether the parameter affects the overall determination of the SVM being complaint or not complaint.
+
+
+
+
+
+
+
+
+
+
+Parameter
+Description
+Recommendation
+Affects SVM Compliance
+
+
+
+
+
+Audit Log
+
+
+Indicates if Audit logging is enabled or disabled.
+
+
+Enabled
+
+
+Yes
+
+
+
+
+Insecure SSH Settings
+
+
+Indicates if SSH uses insecure ciphers, for example ciphers beginning with cbc*.
+
+
+No
+
+
+Yes
+
+
+
+
+Login Banner
+
+
+Indicates if the Login banner is enabled or disabled for users accessing SVMs on the system.
+
+
+Enabled
+
+
+Yes
+
+
+
+
+LDAP Encryption
+
+
+Indicates if LDAP Encryption is enabled or disabled.
+
+
+Enabled
+
+
+No
+
+
+
+
+NTLM Authentication
+
+
+Indicates if NTLM Authentication is enabled or disabled.
+
+
+Enabled
+
+
+No
+
+
+
+
+LDAP Payload Signing
+
+
+Indicates if LDAP Payload Signing is enabled or disabled.
+
+
+Enabled
+
+
+No
+
+
+
+
+CHAP Settings
+
+
+Indicates if CHAP is enabled or disabled.
+
+
+Enabled
+
+
+No
+
+
+
+
+Kerberos V5
+
+
+Indicates if Kerberos V5 authentication is enabled or disabled.
+
+
+Enabled
+
+
+No
+
+
+
+
+NIS  Authentication
+
+
+Indicates if the use of NIS authentication is configured.
+
+
+Disabled
+
+
+No
+
+
+
+
+FPolicy Status Active
+
+
+Indicates if FPolicy is created or not.
+
+
+Yes
+
+
+No
+
+
+
+
+SMB Encryption Enabled
+
+
+Indicates if SMB -Signing & Sealing is not enabled.
+
+
+Yes
+
+
+No
+
+
+
+
+SMB Signing Enabled
+
+
+Indicates if SMB -Signing is not enabled.
+
+
+Yes
+
+
+No

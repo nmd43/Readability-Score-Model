@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Managing security certificates
+
+
+08/16/2021
+Contributors
+
+
+
+You can configure HTTPS in the Unified Manager server to monitor and manage your clusters over a secure connection.

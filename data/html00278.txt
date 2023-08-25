@@ -1,0 +1,23 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+What the Unified Manager server does
+
+
+08/12/2021
+Contributors
+
+
+
+The Unified Manager server infrastructure consists of a data collection unit, a database, and an application server. It provides infrastructure services such as discovery, monitoring, role-based access control (RBAC), auditing, and logging.
+
+
+Unified Manager collects cluster information, stores the data in the database, and analyzes the data to see if there are any cluster issues.

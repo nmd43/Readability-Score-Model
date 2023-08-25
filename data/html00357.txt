@@ -1,0 +1,39 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Audience for this content
+
+
+08/10/2022
+Contributors
+  
+
+
+
+
+
+The topics here are intended for developers creating applications that interface with the Active IQ Unified Manager software through REST APIs.
+
+
+Storage administrators and architects, can refer to this information to gain a basic understanding of how the Unified Manager REST APIs can be used to build client applications to manage and monitor NetApp storage systems.
+
+
+You should use this information if you want to use the storage provider, ONTAP cluster, and management administration APIs for managing your storage.
+
+
+
+
+
+
+
+
+
+You must have one of the following roles: Operator, Storage Administrator, or Application Administrator. You must know the IP address or fully qualified domain name of the Unified Manager server on which you want to execute the REST APIs.

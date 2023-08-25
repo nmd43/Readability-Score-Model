@@ -1,0 +1,29 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Unified Manager REST APIs that can be used for reporting
+
+
+08/10/2022
+Contributors
+  
+
+
+
+
+
+You can use REST APIs to help manage your clusters by viewing the health, capacity, performance, and security information captured by Unified Manager.
+
+
+REST APIs are exposed through the Swagger web page. You can access the Swagger web page to display the Unified Manager REST API documentation, as well as to manually issue an API call. From the Unified Manager web UI, in the Menu Bar, click the Help button and then select API Documentation. For information about Unified Manager REST APIs, see Getting started with Active IQ Unified Manager REST APIs.
+
+
+You must have the Operator, Storage Administrator, or Application Administrator role to access the REST APIs.

@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Managing events
+
+
+08/18/2021
+Contributors
+
+
+
+Events help you to identify issues in the clusters that are monitored.

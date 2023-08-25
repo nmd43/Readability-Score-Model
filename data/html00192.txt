@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Setting up required software repositories
+
+
+08/13/2021
+Contributors
+
+
+
+The system must have access to certain repositories so that the installation program can access and install all required software dependencies.

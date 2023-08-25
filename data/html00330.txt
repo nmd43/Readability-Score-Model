@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Description of Protection relationships windows and dialog boxes
+
+
+08/18/2021
+Contributors
+
+
+
+You can view and manage protection-related details such as resource pools, SVM associations, and protection jobs. You can use the appropriate Health Thresholds page to configure global health threshold values for aggregates, volumes, and relationships.
