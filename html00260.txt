@@ -1,0 +1,26 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+What happens when OnCommand Workflow Automation is reinstalled or upgraded
+
+
+08/17/2021
+Contributors
+
+
+
+Before reinstalling or upgrading OnCommand Workflow Automation, you must first remove the connection between OnCommand Workflow Automation and Unified Manager, and ensure that all OnCommand Workflow Automation currently running or scheduled jobs are stopped.
+
+
+You must also manually delete Unified Manager from OnCommand Workflow Automation.
+
+
+After you reinstall or upgrade OnCommand Workflow Automation, you must set up the connection with Unified Manager again.

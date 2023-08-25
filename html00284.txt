@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Working with reports
+
+
+08/12/2021
+Contributors
+
+
+
+Learn how to find and customize inventory page views into shareable scheduled reports.

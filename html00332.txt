@@ -1,0 +1,20 @@
+docs.netapp.com
+
+
+Active IQ Unified Manager 9.13
+
+
+
+
+
+
+
+Description of script windows and dialog boxes
+
+
+08/19/2021
+Contributors
+
+
+
+The Scripts page enables you to add scripts to Unified Manager.
