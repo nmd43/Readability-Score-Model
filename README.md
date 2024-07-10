@@ -25,16 +25,16 @@ Features:
 11. Number of words with strictly more than 2 syllables 
 12. Number of words with exactly 1 syllable. 
 
-Given a document $\mathcal{D}$, 
-Some readability scores that we consider are: 
-1. 
-$$df$$
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+ 
+
+Some of the 17 readability scores that we considered are: 
+1. Flesh-Kincaid
+2. Coleman-Liau
+3. Wheeler-Smith
+4. Anderson's Readability Index
+5. SMOG
+6. Kuntzsch's Text-Redundanz-Index
+7. Farr-Jenkins-Paterson
 
 Then we do PCA, UMAP, or tSNE on them. 
 
