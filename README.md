@@ -61,9 +61,3 @@ will be high since it incorporates a mix of intricate vocabulary and contrasting
 
 We must consider the fact that as $n$ gets large, $\mathbb{P}_n$ gets very sparse, and so we cannot choose $n$ to be too large. Practically, we should have $2 \leq n \leq 5$. 
 
-### Neural Network Sparsity
-
-
-
-### LLM 
-
